@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/netflixclone/static/css/main.b5b675e0.css",
+    "main.js": "/netflixclone/static/js/main.cdd71c21.js",
+    "static/js/453.6649b387.chunk.js": "/netflixclone/static/js/453.6649b387.chunk.js",
+    "static/media/fa-solid-900.woff2": "/netflixclone/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
+    "static/media/fa-brands-400.woff2": "/netflixclone/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
+    "static/media/fa-regular-400.woff2": "/netflixclone/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
+    "static/media/fa-v4compatibility.woff2": "/netflixclone/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
+    "index.html": "/netflixclone/index.html",
+    "main.b5b675e0.css.map": "/netflixclone/static/css/main.b5b675e0.css.map",
+    "main.cdd71c21.js.map": "/netflixclone/static/js/main.cdd71c21.js.map",
+    "453.6649b387.chunk.js.map": "/netflixclone/static/js/453.6649b387.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5b675e0.css",
+    "static/js/main.cdd71c21.js"
+  ]
+}
