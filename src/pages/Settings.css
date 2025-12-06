@@ -1,0 +1,35 @@
+.settings-page {
+  background: #141414;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.settings-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.settings-page label {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.settings-page select,
+.settings-page input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.settings-page button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.settings-page button:hover {
+  background: #444;
+}

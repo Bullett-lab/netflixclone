@@ -1,0 +1,150 @@
+.profile-page {
+  background: #141414; /* Netflix dark background */
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.profile-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile-page .profiles {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Profile card */
+.profile-page .profile-card {
+  background: #1c1c1c;
+  border-radius: 8px;
+  width: 120px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-page .profile-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Avatar inside card */
+.profile-page .profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  background: url("C:\xampp\htdocs\Banares final project\netflix-clone\public\Avatar.jpg") center/cover no-repeat; /* ✅ use public folder path */
+  margin: 0 auto 12px;
+  transition: border 0.2s ease, transform 0.2s ease;
+}
+
+.profile-page .profile-card:hover .profile-avatar {
+  transform: scale(1.05);
+  border: 2px solid #e50914; /* Netflix red highlight */
+}
+
+/* Profile name */
+.profile-page .profile-name {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 6px;
+}
+
+/* Action buttons */
+.profile-page button {
+  margin-top: 30px;
+  background: #e50914;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.profile-page button:hover {
+  background: #f6121d;
+  transform: scale(1.05);
+}
+
+.profile-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-actions button {
+  background: #e50914;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s ease;
+}
+
+.profile-actions button:hover {
+  background: #f6121d;
+}
+
+/* Sidebar links */
+.profile-sidebar {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+.profile-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-sidebar li {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.profile-sidebar li:hover {
+  color: #fff;
+}
+
+/* Footer */
+.profile-footer {
+  margin-top: auto; /* pushes footer to bottom */
+  padding: 20px 0;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  background-color: #141414;
+}
+
+.profile-footer a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+
+.profile-footer a:hover {
+  color: #fff;
+}

@@ -1,0 +1,30 @@
+.help-page {
+  background: #141414;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.help-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.help-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.help-page li {
+  margin-bottom: 12px;
+}
+
+.help-page a {
+  color: #1db954; /* Netflix often uses green for links */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.help-page a:hover {
+  text-decoration: underline;
+}

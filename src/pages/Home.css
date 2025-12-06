@@ -1,0 +1,49 @@
+.home {
+  background: #141414;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.home__welcome {
+  margin-bottom: 20px;
+}
+
+.home__welcome h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.home__welcome p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.carousel-section {
+  margin-top: 20px;
+}
+
+.spotlight {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.spotlight__title {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.spotlight__poster {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.spotlight__image {
+  width: 200px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.spotlight__poster:hover .spotlight__image {
+  transform: scale(1.05);
+}

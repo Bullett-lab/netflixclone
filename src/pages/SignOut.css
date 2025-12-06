@@ -1,0 +1,31 @@
+.signout-page {
+  background: #141414;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+}
+
+.signout-page h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.signout-page p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.signout-page .signout-btn {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signout-page .signout-btn:hover {
+  background: #f6121d;
+}
